@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="kates.html">Kates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sunys.html">Sunys</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pauksciai.html">Pauksciai</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-dark">.</div>
+            <div class="col-6 bg-light mb-2">
+                <form>
+                    <h3>Prasome uzpildyti koks pauksciukas jus domintu </h3>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Kokios rusies pauksciai domina?</label>
+                      <input type="text" class="form-control" id="paukstisRusis" >
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Kokios lyties paukstis?</label>
+                        <input type="text" class="form-control" id="paukstisLytis" >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Kokio dydzio paukstis?</label>
+                        <input type="text" class="form-control" id="paukstisDydis" >
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Kokio amziaus?</label>
+                        <input type="text" class="form-control" id="paukstisAmzius" >
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Ar turesite pakankamai vietos auginti pauksti namuose?</label>
+                        <input type="text" class="form-control" id="paukstisVieta" >
+                    </div>
+                    
+                    <button id="entry" type="submit" class="btn btn-primary">Patvirtinti</button>
+                  </form>
+            </div>
+            
+            <div class="col-3 bg-dark">.</div>
+            
+    
+                
+    </div>
+
+    
+      <table id="display" class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Rusis</th>
+            <th scope="col">Lytis</th>
+            <th scope="col">Dydis</th>
+            <th scope="col">Amzius</th>
+            <th scope="col">Vieta namuose</th>
+          </tr>
+        </thead>
+      </table>
+    
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script src="pauksciai.js"></script>
+    </footer>
+</body>
+</html>
